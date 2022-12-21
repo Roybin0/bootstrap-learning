@@ -4,6 +4,16 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.container-wrapper {
+
+}
+
+.container-wrapper--red {
+    background-color: #f05f40;
+    color: white;
+    
+}
+
 /* Containers */ 
 
 .alert-container .col-12 {
@@ -56,12 +66,25 @@ body {
 
 }
 
+/* Page headers */ 
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
 /* Block dividers */ 
 
 .block-divider {
     width: 80px;
     height: 5px;
     border: 0;
+    background-color: #444;
 }
 
 .block-divider--orange {
@@ -70,6 +93,13 @@ body {
 
 .block-divider--short {
     width: 40px;
+}
+
+/* Content containers */ 
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 /* Navbar */ 
